@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: monospace, cursive, sans-serif; */
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header {
+    height: 65px;
+    width: 100%;
+    background-color: #202020;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    width: 28%;
+    margin: 0 auto;
+}
+
+nav a {
+    line-height: 65px;
+    padding: 0 20px;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #ff1e00;
+    font-weight: bold;
+} */
+
+header {
+    display: inline;
+}
+
+#Home {
+    height: 350px;
+}
+
+#Home img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main {
+    overflow: auto;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #202020;
+    text-align: center;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+  
+    
+#Products {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#Products h3{
+    margin-top: 15px;
+}
+
+.Product {
+    display: flex;
+}
+    
+.Helm {
+    height: 500px;
+    border-radius: 40px;
+    background-color: #dadada;
+    margin: 20px 13px;
+    flex-basis: 25%;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgb(68, 68, 68);
+}
+
+.Helm:hover {
+    color: #dadada;
+    background-color: #05054d;
+    margin-top: 10px;
+}
+
+.icon img{
+    width: 100%;
+    border-radius: 40px;
+}
+
+.judul {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.content {
+    display: inline;
+}
+
+.order {
+    color: white;
+    /* background-color: rgb(17, 43, 60); */
+    background-color: rgb(0, 209, 45);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* box-shadow: 0 6px rgb(25, 60, 83); */
+    box-shadow: 0 6px rgb(23, 168, 4);
+    font-weight: bolder;
+}
+  
+.order:active {
+  position: relative;
+  top: 6px;
+  box-shadow: none;
+} 
+
+#Tim {
+    background-color: #000050;
+    margin-top: -5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #dadada;
+    width: 100%;
+    height: 500px;
+}
+
+#Tim h3{
+    border-color: #dadada;
+}
+
+#Tim img{
+    height: 200px;
+    border-radius: 40px 10px 40px 10px;
+}
+
+.Propil {
+    padding-top: 30px;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.Profil {
+    float: left;
+}
+
+.Profil p{
+    font-size: 20px;
+    padding-left: 30px;
+    letter-spacing: 2px;
+}
+
+.konten {
+    padding-top: 20px;
+}
+
+#Panduan {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+h3 {
+    padding-top: 20px;
+    width: 30%;
+    font-size: 50px;
+    border-bottom: 5px solid black;
+}
+
+footer {
+    color: #dadada;
+    height: 80px;
+    background-color: #01012e;
+    padding: 20px;
+}
+
+.sosmed {
+    float: right;
+}
+
+footer p{
+    display: inline;
+    margin: 0;
+    width: fit-content;
+    margin-left: 50px;
+}
+
+.fa {
+    padding-right: 10px;
+}
